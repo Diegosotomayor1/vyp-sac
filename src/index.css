@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  /* Orange palette - Primary colors */
+  --color-primary: #f26522; /* Main orange */
+  --color-primary-light: #ff7a3d; /* Lighter orange */
+  --color-primary-dark: #d4511c; /* Darker orange */
+  --color-primary-50: rgba(
+    242,
+    101,
+    34,
+    0.1
+  ); /* Very light orange background */
+  --color-primary-100: rgba(242, 101, 34, 0.2); /* Light orange background */
+
+  /* Gray palette - Background and text colors */
+  --color-gray-50: #fafafa; /* Lightest gray - main backgrounds */
+  --color-gray-100: #f5f5f5; /* Very light gray - section backgrounds */
+  --color-gray-200: #e5e5e5; /* Light gray - borders */
+  --color-gray-300: #d4d4d4; /* Medium light gray - subtle elements */
+  --color-gray-400: #a3a3a3; /* Medium gray - secondary text */
+  --color-gray-500: #737373; /* Medium dark gray - body text */
+  --color-gray-600: #525252; /* Dark gray - headings */
+  --color-gray-700: #404040; /* Darker gray - important text */
+  --color-gray-800: #262626; /* Very dark gray - main text */
+  --color-gray-900: #171717; /* Darkest gray - emphasis */
+
+  /* Legacy variables for compatibility */
+  --color-secondary: #4d4d4d;
+  --color-light: #f5f5f5;
+
+  /* Semantic color assignments */
+  --bg-primary: var(--color-gray-50); /* Main page background */
+  --bg-secondary: var(--color-gray-100); /* Section backgrounds */
+  --bg-accent: var(--color-primary-50); /* Accent backgrounds */
+  --text-primary: var(--color-gray-800); /* Main text */
+  --text-secondary: var(--color-gray-600); /* Secondary text */
+  --text-muted: var(--color-gray-400); /* Muted text */
+}
